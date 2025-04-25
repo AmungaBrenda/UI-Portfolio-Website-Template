@@ -71,11 +71,11 @@ This repository contains a modern, responsive UI Portfolio Website Template buil
 
 ## 🔗 Live Demo
 
-[View Live Demo](https://your-username.github.io/UI-Portfolio-Website-Template)
+[View Live Demo](https://AmungaBrenda.github.io/UI-Portfolio-Website-Template)
 
 ## 🤝 Contributors
 
-- [Your Name](https://github.com/your-username)
+- [AmungaBrenda](https://github.com/AmungaBrenda)
 - [Gerrykiptoo](https://github.com/Gerrykiptoo)
 
 ## 📝 Project Assignment
@@ -90,4 +90,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - [Bootstrap](https://getbootstrap.com/) for the responsive framework
 - [Font Awesome](https://fontawesome.com/) for the icons
-- [Placeholder.com](https://placeholder.com/) for placeholder images during development
