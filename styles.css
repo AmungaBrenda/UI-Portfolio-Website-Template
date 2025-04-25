@@ -1,0 +1,379 @@
+/* Custom CSS */
+:root {
+    --primary-color: #198754;
+    --dark-bg: #102536;
+    --light-bg: #f8f9fa;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header/Navigation */
+.navbar {
+    background-color: var(--dark-bg);
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: white !important;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    color: white !important;
+    margin: 0 10px;
+}
+
+.btn-hire-me {
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 25px;
+    padding: 8px 25px;
+    border: none;
+}
+
+/* Hero Section */
+.hero-section {
+    background-color: var(--dark-bg);
+    color: white;
+    padding: 80px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-content h2 {
+    font-size: 5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    -webkit-text-stroke: 1px white;
+    color: transparent;
+}
+
+.hero-content p {
+    margin-bottom: 30px;
+    font-size: 1.1rem;
+    max-width: 600px;
+}
+
+.hero-buttons .btn {
+    border-radius: 25px;
+    padding: 10px 30px;
+    margin-right: 15px;
+    font-weight: 500;
+}
+
+.hero-buttons .btn-outline-light {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+/* Biography Section */
+.biography-section {
+    padding: 80px 0;
+    background-color: white;
+}
+
+.biography-section h5 {
+    color: #6c757d;
+    margin-bottom: 15px;
+}
+
+.biography-section h2 {
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.biography-section p {
+    color: #6c757d;
+    margin-bottom: 30px;
+}
+
+.biography-details {
+    margin-top: 30px;
+}
+
+.biography-details .row {
+    margin-bottom: 15px;
+}
+
+.biography-details strong {
+    display: inline-block;
+    min-width: 80px;
+}
+
+.social-links a {
+    color: var(--primary-color);
+    margin-right: 15px;
+    font-size: 1.2rem;
+}
+
+.bio-buttons .btn {
+    border-radius: 25px;
+    padding: 10px 30px;
+    margin-right: 15px;
+    font-weight: 500;
+}
+
+/* Services Section */
+.services-section {
+    padding: 80px 0;
+    background-color: var(--light-bg);
+}
+
+.service-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    height: 100%;
+    transition: transform 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.service-icon {
+    color: var(--primary-color);
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.more-services {
+    color: var(--primary-color);
+    display: block;
+    margin-top: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Skills Section */
+.skills-section {
+    padding: 80px 0;
+    background-color: white;
+}
+
+.skills-section h5 {
+    color: #6c757d;
+}
+
+.skills-section h2 {
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.skills-section p {
+    color: #6c757d;
+    margin-bottom: 30px;
+}
+
+.skill-name {
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.progress {
+    height: 8px;
+    margin-bottom: 25px;
+    background-color: #e9ecef;
+}
+
+.progress-bar {
+    background-color: var(--primary-color);
+}
+
+.skill-img {
+    border-radius: 5px;
+}
+
+/* Services Details */
+.services-details {
+    padding: 80px 0;
+    background-color: var(--light-bg);
+}
+
+.service-item {
+    margin-bottom: 30px;
+}
+
+.service-item i {
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+/* Stats Section */
+.stats-section {
+    padding: 40px 0;
+    background-color: var(--light-bg);
+}
+
+.stat-number {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.stat-label {
+    color: #6c757d;
+}
+
+/* Portfolio Section */
+.portfolio-section {
+    padding: 80px 0;
+    background-color: white;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.portfolio-item img {
+    width: 100%;
+    transition: transform 0.3s;
+}
+
+.portfolio-item:hover img {
+    transform: scale(1.05);
+}
+
+/* Clients Section */
+.clients-section {
+    padding: 40px 0;
+    background-color: var(--primary-color);
+}
+
+.client-logo {
+    height: 60px;
+    filter: brightness(0) invert(1);
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
+
+.client-logo:hover {
+    opacity: 1;
+}
+
+/* Footer */
+footer {
+    background-color: var(--dark-bg);
+    color: white;
+    padding: 60px 0 30px;
+}
+
+footer .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+footer .contact-info {
+    margin-bottom: 5px;
+    color: #a8adb3;
+}
+
+footer .social-links {
+    margin-top: 20px;
+}
+
+footer .social-links a {
+    color: white;
+    margin-right: 15px;
+    font-size: 1.2rem;
+}
+
+footer .copyright {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    color: #a8adb3;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    z-index: 999;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 992px) {
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+    
+    .hero-content h2 {
+        font-size: 4rem;
+    }
+    
+    .biography-section .col-lg-7 {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+    
+    .hero-content h2 {
+        font-size: 3rem;
+    }
+    
+    .hero-buttons .btn {
+        padding: 8px 20px;
+        margin-bottom: 10px;
+    }
+    
+    .biography-section,
+    .services-section,
+    .skills-section,
+    .services-details,
+    .portfolio-section {
+        padding: 50px 0;
+    }
+    
+    .stat-number {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-content h1 {
+        font-size: 1.8rem;
+    }
+    
+    .hero-content h2 {
+        font-size: 2.5rem;
+    }
+    
+    .hero-content p {
+        font-size: 1rem;
+    }
+    
+    .service-card {
+        margin-bottom: 20px;
+    }
+    
+    .skill-img {
+        margin-bottom: 20px;
+    }
+}
